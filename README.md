@@ -12,11 +12,10 @@ Install-Package AspNetCoreNotAcceptable
 
     public void ConfigureServices(IServiceCollection services)
     {
-		services
-		.AddMvc()
-		.AddMvcOptions(options =>
-		{
-			options.Filters.Add(typeof(NotAcceptableResultFilter));
-			options.Filters.Add(typeof(ValidateNotAcceptableFilterAttribute));
-		});
+		services.AddMvc()
+				.AddMvcOptions(options =>
+				{
+					options.Filters.Add(typeof(NotAcceptableResultFilter));
+					options.Filters.Add(typeof(ValidateNotAcceptableFilterAttribute));
+				});
 	}
