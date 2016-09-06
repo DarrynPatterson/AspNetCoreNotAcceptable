@@ -4,15 +4,14 @@
   "authors": [ "Darryn Patterson" ],
   "copyright": "Copyright 2016",
   "title": "AspNetCoreNotAcceptable",
-  "projectUrl": "",
   "packOptions": {
-    "licenseUrl": "",
+    "licenseUrl": "https://github.com/DarrynPatterson/AspNetCoreNotAcceptable/blob/master/LICENSE",
     "tags": [ "Cache" ],
     "owners": [ "Darryn Patterson" ],
-    "summary": "AspNetCoreNotAcceptable is an ASP.NET Core solution which ensures that all http requests have the 'Accept' header set to 'application/json'.",
+    "summary": "AspNetCoreNotAcceptable is an ASP.NET Core solution which requires all http requests to have the 'Accept' header set to 'application/json'.",
     "repository": {
       "type": "git",
-      "url": ""
+      "url": "https://github.com/DarrynPatterson/AspNetCoreNotAcceptable"
     }
   },
   "dependencies": {
