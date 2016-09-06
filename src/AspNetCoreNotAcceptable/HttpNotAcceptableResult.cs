@@ -1,7 +1,6 @@
-﻿using AspNetCoreNotAcceptable.ResponseModels;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace AspNetCoreNotAcceptable.HttpResults
+namespace AspNetCoreNotAcceptable
 {
     public class HttpNotAcceptableResult : ObjectResult
     {

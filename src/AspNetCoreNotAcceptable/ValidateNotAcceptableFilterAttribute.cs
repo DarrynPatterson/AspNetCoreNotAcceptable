@@ -1,8 +1,7 @@
 ﻿using System.Linq;
-using AspNetCoreNotAcceptable.HttpResults;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace AspNetCoreNotAcceptable.ActionFilters
+namespace AspNetCoreNotAcceptable
 {
     public class ValidateNotAcceptableFilterAttribute : ActionFilterAttribute
     {

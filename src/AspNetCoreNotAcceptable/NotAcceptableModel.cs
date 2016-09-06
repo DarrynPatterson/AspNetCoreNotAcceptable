@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace AspNetCoreNotAcceptable.ResponseModels
+namespace AspNetCoreNotAcceptable
 {
     internal class NotAcceptableModel
     {

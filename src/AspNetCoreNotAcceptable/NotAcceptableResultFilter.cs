@@ -1,8 +1,7 @@
-﻿using AspNetCoreNotAcceptable.HttpResults;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace AspNetCoreNotAcceptable.ResultFilters
+namespace AspNetCoreNotAcceptable
 {
     public class NotAcceptableResultFilter : ResultFilterAttribute
     {
